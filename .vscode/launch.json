@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "compounds": [
+    {
+      "name": "Launch & Debug",
+      "configurations": ["Launch localhost"]
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Launch localhost",
+      "type": "edge",
+      "request": "launch",
+      "url": "http://localhost:1234",
+      "webRoot": "${workspaceRoot}"
+    }
+  ]
+}

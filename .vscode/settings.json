@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "javascript.format.enable": true,
+  "javascript.validate.enable": true,
+  "search.exclude": {
+    "**/.idea": true,
+    "**/build": true,
+    "**/node_modules": true,
+    "**/yarn-error.log": true,
+    "**/yarn.lock": true,
+    "**/vendor": true
+  }
+}
